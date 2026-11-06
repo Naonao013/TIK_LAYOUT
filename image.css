@@ -1,0 +1,67 @@
+body{
+    background-color: aquamarine;
+    background-image: url(background.png);
+}
+
+img.ukuran{
+    width: 500px;
+    height: 350 px;
+}
+
+img.lengkungan{
+    border-radius: 0% 20% 0% 20%; /* kiri kanan (atas), kanan kiri (bawah) */
+    width: 500px;
+    height: 350px;
+}
+
+div.kelompok{
+    height: 500px;
+    width: 350px;
+    border-radius: 20%;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+}
+
+div.kelompok img{
+    height: 415px;
+    width: 330px; 
+    border-radius: 20%;
+    border: 1px solid whitesmoke;
+}
+
+div.effect{
+    height: 500px;
+    width: 450px; 
+    border-radius: 20%;
+    border: 1px solid burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+div.effect img{
+    height: 450px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+div.effect:hover{
+    height: 450px;
+    width: 400px;
+    background-color: lightblue;
+    box-shadow: 15px 15px 10px darkolivegreen;
+}
+
+p.internal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+p.external{
+    font-family: "abxcd" ;
+    font-size: 60pt;
+}
+/* format font : otf/ttf */
+@font-face {
+    font-family: "abxcd";
+    src: url("super_bouncer/Super\ Bouncer.ttf");
+}

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+.header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.topnav a {
+    font-size: 20px;
+    padding: 15px 18px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f5f3ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Milesdane";
+}
+
+.topnav a:hover{
+    background-color: #cdb4db;
+    color: #4a4e8c;
+}
+
+/* Style footer */
+footer{
+    background-color: #e4def7;
+    padding: 10px;
+    text-align: center;
+    font-family: "Milesdane", serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0px 0;
+    color: #3f3d6e;
+    background-color: beige;
+    background-size: cover;
+}
+
+h1 {
+    background-color: #e4def7;
+    color: #4a4e8c;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 32px;
+    padding: 8px;
+    font-family: "Milesdane";
+}
+
+.nilai {
+    width: 99%;
+    margin: 0 auto 32px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #f8f9ff;
+}
+
+.nilai th, .nilai td {
+    border: 1px solid #9aa5d8;
+    padding: 10px 7px;
+    font-size: 18px;
+}
+
+.nilai th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #bcd8f7;
+    color: #3a3f7a;
+    font-family: "against", serif;
+}
+
+.nilai td {
+    background-color: #eef4ff;
+    font-family: "Patrick Hand", cursive;
+}
+
+.nilai tr:nth-child(2) th {
+    background-color: #d6c9f2;
+}
+
+.nilai tr:nth-child(odd) td {
+    background-color: #f5f2ff;
+}
+
+.nilai tr:nth-child(even) td {
+    background-color: #e3ecfb;
+}
+
+.merge th,
+.merge td {
+    height: 36px;
+    background-color: #eef4ff;
+}
+
+.merge tr:nth-child(2) th {
+    background-color: #d6c9f2;
+}
+
+.merge tr:nth-child(4) th {
+    background-color: #d6c9f2;
+}
+
+.merge tr:last-child th:nth-child(1),
+.merge tr:last-child th:nth-child(2),
+.merge tr:last-child th:nth-child(4),
+.merge tr:last-child th:nth-child(5),
+.merge tr:last-child th:nth-child(6) {
+    background-color: #d6c9f2;
+}
+
+.nilai th:hover,
+.nilai td:hover {
+    background-color: #bcd8f7 !important;
+    color: #3a3f7a;
+    transition: 0.2s;
+} 
+.header {
+    background-color: #e4def7;
+    padding: 20px;
+    text-align: center;
+    font-family: "against", serif;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: #4a4e8c;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f5f3ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "against", serif;
+}
+
+.topnav a:hover{
+    background-color: #cdb4db;
+    color: #4a4e8c;
+}
+
+/* Style footer */
+footer{
+    background-color: #e4def7;
+    padding: 10px;
+    text-align: center;
+}
+
+.table {
+    font-family: "against", serif;
+    text-align: center;
+    color: #5a4a7a;
+}
+
+.table table {
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #d3e3fb;
+}
+
+.table th {
+    border: 4px solid #8c8fd6;
+    color: #3b3a8a;
+    font-size: 34px;
+    font-weight: normal;
+    padding: 0;
+}
+
+.table th.ganti {
+    background-color: #d6c9f2;
+}
+
+.table th:hover {
+    background-color: #a9bff5;
+    color: #2e2e6e;
+}
+
+@font-face {
+    font-family: "Milesdane";
+    src: url("Milesdane Trial.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "against";
+    src: url("against regular.otf") format("opentype");
+    font-display: swap;
+}
